@@ -1,23 +1,21 @@
-# ASP.NET MVC Notes
+2025-10-09 08:32
 
-## Date
-2025-10-08
+Status: Done
 
-## Topic
+Tags: [[CSharp]]
+
+---
+# Topic
 Understanding how `View()` works in the ASP.NET MVC pattern, and how it automatically maps to the corresponding `.cshtml` files.
 
 ---
-
-## Key Takeaways
-
-### 1. MVC Overview
+# Key Takeaways
+## 1. MVC Overview
 - **Model** -> Handles business logic and data (connected to Oracle DB).
 - **View** -> The UI layer (`cshtml` using Razor templates).
 - **Controller** -> The brain of the request; receives input, calls Models, returns a View.
 
----
-
-### 2. How View() works
+## 2. How View() Works
 When you write:
 
 ```csharp
@@ -33,6 +31,7 @@ ASP.NET MVC automatically looks for the matching view file using Convention over
 ```
 
 So in this example:
+
 ```
 Views/Home/Index.cshtml
 ```
@@ -45,9 +44,7 @@ Views/Shared/Index.cshtml
 
 That's why you usually don't need to specify the path manually -- the framework already knows where to find it.
 
----
-
-### 3. Manually Selecting a View
+## 3. Manually Selecting a View
 You can explicitly return another view:
 
 ```csharp
@@ -66,28 +63,20 @@ Or Use an absolute path:
 return View("~/Views/Shared/CustomError.cshtml")
 ```
 
----
-
-### 4. Tech Stack in This Project
-| Layer    | Technology                                          |
-| -------- | --------------------------------------------------- |
-| Frontend | Razor (cshtml)                                      |
-| Backend  | ASP.NET MVC (C#)                                    |
-| Auth     | SSO + JWT                                           |
-| Database | Oracle                                              |
-| Purpose  | Unified company portal integrating multiple systems |
 
 ---
-
-## My Understanding
+# My Understanding
 I find this convention-based file lookup super elegant.
 It makes the code cleaner because I don't need to hardcode view paths -- the framework handles it based on controller/action names.
 Next, I want to dive deeper into Razor syntax and how data is passed from Controller -> View.
 
 ---
-
-## Next Steps
+# Next Steps
 - Learn Razor syntax (`@model`, `@foreach`, `@Html.Partial`, etc.)
 - Study data passing (`ViewBag`, `ViewData`, `Model`)
 - Understand JWT validation flow after SSO login
 - Learn how Oracle integration works (Repository pattern)
+
+---
+# Reference
+

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "122d7de1a4f6a169",
+        "id": "d90fa4a4f856a47a",
         "type": "tabs",
         "children": [
           {
-            "id": "0c7597e77ebedb4f",
+            "id": "069e6e8517012c75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3 - Tags/CSharp.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CSharp"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Portal Project/2025-10-08 - CSharp MVC - View() Mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025-10-08 - CSharp MVC - View() Mechanism"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Portal Project/2025-10-08 - CSharp MVC - View() Mechanism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2025-10-08 - CSharp MVC - View() Mechanism"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "3 - Tags/CSharp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of CSharp"
             }
           },
           {
@@ -159,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 265
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,9 +180,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c7597e77ebedb4f",
+  "active": "6502f52164f2dfd5",
   "lastOpenFiles": [
-    "Portal Project/2025-10-08 - CSharp MVC - View() Mechanism.md",
+    "1 - Rough Notes/Untitled.md",
+    "5 - Template/Full Note.md",
+    "5 - Template/Idea.md",
+    "6 - Main Notes/CSharp Class Properties.md",
+    "Untitled.md",
+    "6 - Main Notes/2025-10-08 - CSharp - Class Properties.md",
+    "3 - Tags/Python.md",
+    "6 - Main Notes/CSharp MVC - View() Mechanism.md",
+    "6 - Main Notes/2025-10-08 - CSharp MVC - View() Mechanism.md",
+    "3 - Tags/CSharp.md",
+    "6 - Main Notes",
+    "4 - Indexes",
+    "3 - Tags",
+    "2 - Source Material",
+    "1 - Rough Notes",
+    "Ideas",
+    "Untitled 1.md",
+    "5 - Template",
+    "General",
     "Portal Project",
     "Welcome.md"
   ]
