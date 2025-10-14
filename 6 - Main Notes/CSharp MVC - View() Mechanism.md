@@ -9,6 +9,10 @@ Tags: [[CSharp]]
 Understanding how `View()` works in the ASP.NET MVC pattern, and how it automatically maps to the corresponding `.cshtml` files.
 
 ---
+# Summary
+
+
+---
 # Key Takeaways
 ## 1. MVC Overview
 - **Model** -> Handles business logic and data (connected to Oracle DB).

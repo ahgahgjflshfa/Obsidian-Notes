@@ -1,8 +1,8 @@
-{{date}} {{time}}
+2025-10-14 10:58
 
-Status:
+Status: Working
 
-Tags: 
+Tags: [[Angular]]
 
 ---
 # Topic

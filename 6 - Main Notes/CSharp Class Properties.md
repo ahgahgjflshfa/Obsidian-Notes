@@ -9,6 +9,10 @@ Tags: [[CSharp]], [[Python]],
 Concept of the properties in C# classes.
 
 ---
+# Summary
+
+
+---
 # Key Takeaways
 ## 1. Usage
 C# properties can provide getter and setter for class member.
